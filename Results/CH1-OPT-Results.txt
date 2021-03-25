@@ -1,0 +1,20 @@
+aolin11.uab.es
+AA. RETO1. X=2000, T=500000
+***********************
+R= -2.040993e-01, T1= -4.733878e-07, T2= -5.001421e-07, CheckSum(B) = 4.471334e+05
+
+ Performance counter stats for './Modificado.O1':
+
+          4.317,52 msec task-clock                #    0,995 CPUs utilized          
+               222      context-switches          #    0,051 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               661      page-faults               #    0,153 K/sec                  
+    14.580.999.348      cycles                    #    3,377 GHz                    
+    22.094.210.175      instructions              #    1,52  insn per cycle         
+     4.513.092.562      branches                  # 1045,297 M/sec                  
+           644.743      branch-misses             #    0,01% of all branches        
+
+       4,340007679 seconds time elapsed
+
+       4,317339000 seconds user
+       0,000998000 seconds sys
