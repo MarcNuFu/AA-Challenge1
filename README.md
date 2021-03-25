@@ -1,2 +1,5 @@
 # AA-Challenge1
-First optimization challenge from Advanced Architectures
+
+Primer reto de optimización de la asignatura Arquitecturas Avanzadas
+
+Speed-up = 4.84x
