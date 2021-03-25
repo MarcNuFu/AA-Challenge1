@@ -1,28 +1,20 @@
 aolin11.uab.es
-AA. RETO1. X=1500, T=81240
+AA. RETO1. X=2000, T=500000
 ***********************
-R= 6.527104e-01, T1= -2.378989e-06, T2= -3.886954e-06, CheckSum(B) = 7.263895e+04
+R= -2.040993e-01, T1= -4.733878e-07, T2= -5.001421e-07, CheckSum(B) = 4.471334e+05
 
- Performance counter stats for './Original.O1':
+ Performance counter stats for './R1':
 
-          1.262,68 msec task-clock                #    0,989 CPUs utilized          
-                68      context-switches          #    0,054 K/sec                  
-                 0      cpu-migrations            #    0,000 K/sec                  
-               725      page-faults               #    0,574 K/sec                  
-     4.235.551.517      cycles                    #    3,354 GHz                    
-     3.931.740.797      instructions              #    0,93  insn per cycle         
-       736.788.307      branches                  #  583,510 M/sec                  
-           435.604      branch-misses             #    0,06% of all branches        
+         20.910,36 msec task-clock                #    0,998 CPUs utilized       
+             1.064      context-switches          #    0,051 K/sec               
+                 0      cpu-migrations            #    0,000 K/sec               
+             2.770      page-faults               #    0,132 K/sec               
+    70.473.653.721      cycles                    #    3,370 GHz                 
+    32.251.260.834      instructions              #    0,46  insn per cycle      
+     6.044.764.686      branches                  #  289,080 M/sec               
+         2.802.961      branch-misses             #    0,05% of all branches     
 
-       1,277166736 seconds time elapsed
+      20,954602380 seconds time elapsed
 
-       1,206371000 seconds user
-       0,056923000 seconds sys
-
-
-
-AA. RETO1. X=1500, T=81240
-***********************
-R= 6.527104e-01, T1= -2.378989e-06, T2= -3.886954e-06, CheckSum(B) = 7.263895e+04
-[ perf record: Woken up 1 times to write data ]
-[ perf record: Captured and wrote 0,207 MB perf.data (5402 samples) ]
+      20,438973000 seconds user
+       0,461801000 seconds sys
